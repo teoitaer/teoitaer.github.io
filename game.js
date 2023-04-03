@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-fetch('questions.json')
+fetch('https://github.com/teoitaer/teoitaer.github.io/blob/main/questions.json')
     .then((res) => {
         return res.json();
     })
