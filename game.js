@@ -18,10 +18,10 @@ fetch("questions.json")
     .then((loadedQuestions) => {
         questions = loadedQuestions;
         startGame();
+    })
+     .catch((err) => {
+         console.error(err);
     });
-    // .catch((err) => {
-    //     console.error(err);
-    //});
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
