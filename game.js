@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-fetch('/questions.json')
+fetch('questions.json')
     .then((res) => {
         return res.json();
     })
@@ -19,9 +19,9 @@ fetch('/questions.json')
         questions = loadedQuestions;
         startGame();
     })
-    // .catch((err) => {
-    //     console.error(err);
-    //});
+    .catch((err) => {
+        console.error(err);
+    });
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
@@ -38,7 +38,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('/Users/matteo/Downloads/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript-master/10. Fetch Questions from Local JSON File/end.html');
+        return window.location.assign('/end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
