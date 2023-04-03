@@ -1,3 +1,7 @@
+"permissions": [
+    "https://teoitaer.github.io/"
+]
+
 [
   {
     "question": "Inside which HTML element do we put the JavaScript??",
