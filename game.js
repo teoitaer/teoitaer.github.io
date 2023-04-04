@@ -18,7 +18,7 @@ fetch('questions.json')
     })
      .catch(err => {
          console.error(err);
-    }));
+    });
 
 
 
