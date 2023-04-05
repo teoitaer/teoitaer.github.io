@@ -11,15 +11,15 @@ let availableQuesions = [];
 
 let questions = [];
 
+
 fetch('questions.json')
-    .then(response =>  response.json())
-    .then(loadedQuestions => questions = loadedQuestions);
+    .then(res => { return res.json();})
+    .then(loadedQuestions => { questions = loadedQuestions;
         startGame();
-     catch (err) { 
-    .console.error(err);
-  }
-
-
+    })
+     .catch(err => {
+         console.error(err);
+    });
 
 
 
