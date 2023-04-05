@@ -16,7 +16,7 @@ fetch('questions.json')
     .then(loadedQuestions => questions = loadedQuestions);
         startGame();
     
-     catch(err => {
+     .catch(err => {
          console.error(err);
     });
 
