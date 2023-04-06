@@ -16,7 +16,7 @@ fetch('questions.json')
     .then(res => { return res.json();})
     .then(loadedQuestions => {
         questions = loadedQuestions;
-        var keyCount  = Object.keys(jsonObject).length;
+       
         startGame();
     })
      .catch(err => {
