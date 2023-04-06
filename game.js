@@ -16,13 +16,14 @@ fetch('questions.json')
     .then(res => { return res.json();})
     .then(loadedQuestions => {
         questions = loadedQuestions;
+        var keyCount  = Object.keys(jsonObject).length;
         startGame();
     })
      .catch(err => {
          console.error(err);
     });
 
-var keyCount  = Object.keys(jsonObject).length;
+
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
