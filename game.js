@@ -22,7 +22,7 @@ fetch('questions.json')
          console.error(err);
     });
 
-
+var keyCount  = Object.keys(jsonObject).length;
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
