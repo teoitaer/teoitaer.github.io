@@ -26,7 +26,7 @@ fetch('questions.json')
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-var MAX_QUESTIONS = loadedQuestions;
+const MAX_QUESTIONS = 10;
 
 
 startGame = () => {
