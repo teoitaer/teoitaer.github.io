@@ -15,11 +15,11 @@ let questions = [];
 
  // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
-   alert(x);
+   // alert(x);
 
 // legge il valore inserito nella combobox subjectsel di index.html
 var y = localStorage.getItem("secValue");
-   alert(y);
+   // alert(y);
 
 // carica il database per la materia selezionata
 var z;
