@@ -12,8 +12,8 @@ let availableQuesions = [];
 let questions = [];
 
 
- fetch('questions.json')
-// fetch('agken.json')
+ // fetch('questions.json')
+ fetch('agken.json')
     .then(res => { return res.json();})
     .then(loadedQuestions => {
         questions = loadedQuestions;
