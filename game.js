@@ -25,9 +25,16 @@ fetch('questions.json')
 
 
 
+
+ // legge il valore inserito nella combobox numsel di index.html
+var x = localStorage.getItem("selValue");
+// alert(x);
+
+
+
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = x;
 
 
 startGame = () => {
