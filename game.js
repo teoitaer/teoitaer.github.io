@@ -11,6 +11,29 @@ let availableQuesions = [];
 
 let questions = [];
 
+// nuovo
+
+ // legge il valore inserito nella combobox numsel di index.html
+var x = localStorage.getItem("selValue");
+ // alert(x);
+
+// legge il valore inserito nella combobox subjectsel di index.html
+var y = localStorage.getItem("secValue");
+ // alert(y);
+
+// var z = 'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple';
+
+var z;
+if(y=="AL ENG"){
+    z='questions.json';
+}
+else{
+    z='agken.json';
+}
+
+
+// fine nuovo
+
 
  // fetch('questions.json')
  fetch('agken.json')
