@@ -21,14 +21,41 @@ var x = localStorage.getItem("selValue");
 var y = localStorage.getItem("secValue");
    alert(y);
 
-
+// carica il database per la materia selezionata
 var z;
 if(y=="AL ENG"){
-    z='questions.json';
-}
-else{
+    z='alen.json';
+} else if (y=="AGK ENG"){
     z='agken.json';
-}
+} else if (y=="OPS ENG"){
+    z='opsen.json';
+} else if (y=="HPL ENG"){
+    z='hplen.json';
+} else if (y=="NAV ENG"){
+    z='naven.json';
+} else if (y=="MET ENG"){
+    z='meten.json';
+} else if (y=="FPP ENG"){
+    z='fppen.json';
+} else if (y=="POF ENG"){
+    z='pofen.json';
+} else if (y=="COM ENG"){
+    z='comen.json';
+} 
+
+
+
+
+
+
+// // carica il database per la materia selezionata
+// var z;
+// if(y=="AL ENG"){
+//     z='questions.json';
+// }
+// else{
+//     z='agken.json';
+// }
 
 
 // fine nuovo
