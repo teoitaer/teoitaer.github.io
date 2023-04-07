@@ -105,6 +105,31 @@ h3 {
   transform: none;
 }
 
+
+/*COMBOBOX*/
+.option {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid black;
+  margin-bottom: 1rem;
+  text-decoration: none;
+/*  color: #56a5eb;*/
+color:black;
+  background-color: lightgrey;
+}
+
+/*labels*/
+
+.lab {
+  font-size: 1.5rem;
+  margin-top: 1.3rem;
+  margin-bottom: 0.8rem;
+  font-weight: 300;
+}
+
+
 /* FORMS */
 form {
   width: 100%;
