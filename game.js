@@ -15,11 +15,11 @@ let questions = [];
 
  // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
- // alert(x);
+  // alert(x);
 
 // legge il valore inserito nella combobox subjectsel di index.html
 var y = localStorage.getItem("secValue");
- // alert(y);
+  // alert(y);
 
 // var z = 'https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple';
 
@@ -36,7 +36,7 @@ else{
 
 
  // fetch('questions.json')
- fetch('agken.json')
+ fetch(z)
     .then(res => { return res.json();})
     .then(loadedQuestions => {
         questions = loadedQuestions;
