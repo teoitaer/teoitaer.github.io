@@ -89,7 +89,8 @@ getNewQuestion = () => {
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-    const questionIndex ++
+    const questionIndex =1;
+    questionindex ++;
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
