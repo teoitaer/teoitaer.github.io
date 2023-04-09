@@ -114,7 +114,7 @@ getNewQuestion = () => {
     // fine codice per domande in sequenza
 
 const questionIndex = b
-    // fine nuovo
+    // fine nuovo 
 
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
