@@ -88,15 +88,15 @@ getNewQuestion = () => {
     
     // nuovo
 
-    if (a=="NO"){
-    const questionIndex = 0;
-} else {
-    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-}
+//     if (a=="NO"){
+//     const questionIndex = 0;
+// } else {
+//     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+// }
 
 
 // codice per domande random
-    // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
    // fine codice per domande random 
     
 // codice per domande in sequenza
