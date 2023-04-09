@@ -7,14 +7,6 @@ let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
-
-
-
-let questionIndex = 1;
-
-
-
-
 let availableQuesions = [];
 
 let questions = [];
@@ -80,10 +72,6 @@ const MAX_QUESTIONS = x;
 
 startGame = () => {
     questionCounter = 0;
-
-questionIndex = 1;
-
-
     score = 0;
     availableQuesions = [...questions];
     getNewQuestion();
@@ -100,9 +88,9 @@ getNewQuestion = () => {
     //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     
-    questionindex++;
+    
 
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
