@@ -35,6 +35,7 @@ var b;
     b = Math.floor(Math.random() * availableQuesions.length);
 }
 
+alert(b);
 
 
 
