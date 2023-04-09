@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [];
 
-// nuovo
+
 
  // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
@@ -45,23 +45,6 @@ if(y=="AL ENG"){
 
 
 
-
-
-
-// // carica il database per la materia selezionata
-// var z;
-// if(y=="AL ENG"){
-//     z='questions.json';
-// }
-// else{
-//     z='agken.json';
-// }
-
-
-// fine nuovo
-
-
- // fetch('questions.json')
  fetch(z)
     .then(res => { return res.json();})
     .then(loadedQuestions => {
@@ -105,7 +88,8 @@ getNewQuestion = () => {
     //Update the progress bar
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
-    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+    // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+    const questionIndex ++
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
