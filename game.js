@@ -14,7 +14,7 @@ let questions = [];
 
  // legge il valore inserito nella combobox numsel di index.html
 var a = localStorage.getItem("terValue");
-    alert(a);
+    //alert(a);
 
  // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
@@ -63,7 +63,7 @@ if(y=="AL ENG"){
 
 
  // legge il valore inserito nella combobox numsel di index.html
-var x = localStorage.getItem("selValue");
+// var x = localStorage.getItem("selValue");
 // alert(x);
 
 
