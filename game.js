@@ -114,7 +114,7 @@ getNewQuestion = () => {
     // const questionIndex = 0;
     // fine codice per domande in sequenza
 
-const questionIndex = 0 + b
+const questionIndex = 0 & b
     // fine nuovo 
 
     currentQuestion = availableQuesions[questionIndex];
