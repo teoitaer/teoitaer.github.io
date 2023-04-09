@@ -27,12 +27,6 @@ var y = localStorage.getItem("secValue");
 
 
 
-
-
-
-
-
-
 // carica il database per la materia selezionata
 var z;
 if(y=="AL ENG"){
@@ -118,6 +112,10 @@ const questionIndex = b
 
 
     currentQuestion = availableQuesions[questionIndex];
+
+    questionid.innerText = currentQuestion.questionid;
+
+
     question.innerText = currentQuestion.question;
 
     choices.forEach((choice) => {
