@@ -32,7 +32,7 @@ var b;
     if (a=="NO"){
     b= 0;
 } else if (a=="YES") {
-    b = Math.floor(Math.random() * availableQuesions.length);
+    b = "Math.floor(Math.random() * availableQuesions.length)";
 }
 
 alert(b);
