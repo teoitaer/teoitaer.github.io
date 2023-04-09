@@ -12,6 +12,9 @@ let availableQuesions = [];
 let questions = [];
 
 
+ // legge il valore inserito nella combobox numsel di index.html
+var a = localStorage.getItem("random");
+    alert(a);
 
  // legge il valore inserito nella combobox numsel di index.html
 var x = localStorage.getItem("selValue");
