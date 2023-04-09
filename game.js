@@ -13,7 +13,7 @@ let questions = [];
 
 
  // legge il valore inserito nella combobox numsel di index.html
-var a = localStorage.getItem("random");
+var a = localStorage.getItem("terValue");
     alert(a);
 
  // legge il valore inserito nella combobox numsel di index.html
