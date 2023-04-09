@@ -32,7 +32,7 @@ var b;
     if (a=="NO"){
     b= 0;
 } else if (a=="YES") {
-    b = 'Math.floor(Math.random() * availableQuesions.length)';
+    b = "Math.floor(Math.random() * availableQuesions.length)";
 }
 
 alert(b);
@@ -114,7 +114,7 @@ getNewQuestion = () => {
     // const questionIndex = 0;
     // fine codice per domande in sequenza
 
-const questionIndex = b
+const questionIndex = 0 + b
     // fine nuovo 
 
     currentQuestion = availableQuesions[questionIndex];
