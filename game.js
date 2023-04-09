@@ -90,8 +90,8 @@ getNewQuestion = () => {
 
     // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     
-    const questionIndex = 10;
-    
+    const questionIndex = 1;
+
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
 
