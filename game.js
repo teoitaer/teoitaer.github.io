@@ -64,7 +64,6 @@ if(y=="AL ENG"){
 
 
 
-
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = x;
@@ -90,8 +89,6 @@ getNewQuestion = () => {
 
     
     
-
-
 // nuovo
 
     // la variabile b prende il valore dalla chackbox random in index.html. 
@@ -110,14 +107,14 @@ const questionIndex = b
 
     // fine nuovo 
 
-
     currentQuestion = availableQuesions[questionIndex];
-
+// riempie il campo id
     questionid.innerText = currentQuestion.questionid;
 
-
+// riempie il campo domanda
     question.innerText = currentQuestion.question;
 
+// riempie i campi delle risposte
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
