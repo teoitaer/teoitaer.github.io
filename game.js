@@ -111,9 +111,10 @@ var b;
 
 // alert(b);
      
-
 const questionIndex = b
+
     // fine nuovo 
+
 
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
