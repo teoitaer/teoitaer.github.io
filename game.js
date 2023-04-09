@@ -98,6 +98,9 @@ getNewQuestion = () => {
 
 
 // nuovo
+
+    // la variabile b prende il valore dalla chackbox random in index.html. 
+    // il codice imposta le domande in ordine sequenziale o random
 var b;
 
     if (a=="NO"){
@@ -107,18 +110,7 @@ var b;
 }
 
 // alert(b);
-
-
-
-
-
-// codice per domande random
-     // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-   // fine codice per domande random 
-    
-// codice per domande in sequenza
-    // const questionIndex = 0;
-    // fine codice per domande in sequenza
+     
 
 const questionIndex = b
     // fine nuovo 
