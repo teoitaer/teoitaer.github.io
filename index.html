@@ -76,12 +76,15 @@ mySel.onchange();
 
 
 <!-- nuovo -->
-<div>
-  <br></br>
-<label calss ="lab">domande random:</label>
-<input type="checkbox" id="random" name="random" value="random">
-<br></br>
-  </div>
+</select>
+
+<label class="lab" for="random selection">RANDOM QUESTIONS:</label>
+<select class="option" name="optionlist" id="random" onChange="combo(this, 'random')">
+<option value="">--RANDOM QUESTIONS--</option>
+<option>YES</option>
+<option>NO</option>
+</select>
+
 <!-- salva il valore inserito nella checkbox random -->
 
 <script>
