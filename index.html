@@ -14,7 +14,7 @@
         <h1>PA PPL QUIZ</h1>
 
 
-<!-- nuovo -->
+
 
 <label class="lab" for="subject-selection">SELECT SUBJECT:</label>
 <select class="option" name="optionlist" id="subjectsel" onChange="combo(this, 'subject')">
@@ -32,7 +32,7 @@
 </select>
 
 <label class="lab" for="number-selection">SELECT NUMBER OF QUESTIONS:</label>
-<select class="option" name="optionlist" id="numsel" onChange="combo(this, 'numsel')">
+<select class="option" name="optionlist" id="numsel" onChange="combo(this, 'number')">
 <option value="">--Select Number--</option>
 <option>10</option>
 <option>20</option>
@@ -73,17 +73,34 @@ if (val) mySel.value=val; // set the dropdown
 mySel.onchange();  
 </script>
 
+
+
+<!-- nuovo -->
+<div>
+  <br></br>
+<label calss ="lab">domande random:</label>
+<input type="checkbox" id="random" name="random" value="random">
+<br></br>
+  </div>
+<!-- salva il valore inserito nella checkbox random -->
+
+<script>
+const mySel3 = document.getElementById("random"); 
+mySel3.addEventListener("change",function() { 
+  localStorage.setItem("terValue",this.value); // save it 
+}); 
+let val3 = localStorage.getItem("terValue"); 
+if (val3) mySel3.value=val3; // set the dropdown 
+// trigger the change in case there are other events on the select 
+mySel3.onchange();  
+</script>
+
 <!-- fine nuovo -->
 
 
-<div>
-  <br></br>
-<label calss ="lab" for="html">domande random:</label>
-<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
 
 
-<br></br>
-  </div>
+
 
 
 
