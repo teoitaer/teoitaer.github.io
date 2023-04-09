@@ -88,9 +88,9 @@ getNewQuestion = () => {
     
     // nuovo
 
-    if(a=="NO"){
+    if (a=="NO"){
     const questionIndex = 0;
-} else (a=="YES"){
+} else {
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
 }
 
