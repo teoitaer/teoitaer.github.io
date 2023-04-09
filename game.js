@@ -90,7 +90,7 @@ getNewQuestion = () => {
 
     if(a=="NO"){
     const questionIndex = 0;
-} else if (a=="YES"){
+} else (a=="YES"){
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
 }
 
