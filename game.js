@@ -31,7 +31,7 @@ var b;
 
     if (a=="NO"){
     b= 0;
-} else {
+} else if (a=="YES") {
     b = Math.floor(Math.random() * availableQuesions.length);
 }
 
