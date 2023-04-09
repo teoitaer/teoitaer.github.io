@@ -26,16 +26,7 @@ var y = localStorage.getItem("secValue");
 
 
 
-// nuovo
-var b;
 
-    if (a=="NO"){
-    b= 0;
-} else if (a=="YES") {
-    b = "Math.floor(Math.random() * availableQuesions.length)";
-}
-
-alert(b);
 
 
 
@@ -106,6 +97,21 @@ getNewQuestion = () => {
     
 
 
+// nuovo
+var b;
+
+    if (a=="NO"){
+    b= 0;
+} else if (a=="YES") {
+    b = Math.floor(Math.random() * availableQuesions.length);
+}
+
+alert(b);
+
+
+
+
+
 // codice per domande random
      // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
    // fine codice per domande random 
@@ -114,7 +120,7 @@ getNewQuestion = () => {
     // const questionIndex = 0;
     // fine codice per domande in sequenza
 
-const questionIndex = 0 & b
+const questionIndex = b
     // fine nuovo 
 
     currentQuestion = availableQuesions[questionIndex];
