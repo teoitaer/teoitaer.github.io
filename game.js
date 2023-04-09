@@ -62,12 +62,6 @@ if(y=="AL ENG"){
 
 
 
- // legge il valore inserito nella combobox numsel di index.html
-// var x = localStorage.getItem("selValue");
-// alert(x);
-
-
-
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = x;
@@ -92,13 +86,25 @@ getNewQuestion = () => {
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     
+    // nuovo
+
+    if(a=="NO"){
+    const questionIndex = 0;
+} else if (a=="YES"){
+    const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+}
+
+
 // codice per domande random
     // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
    // fine codice per domande random 
     
 // codice per domande in sequenza
-    const questionIndex = 0;
+    // const questionIndex = 0;
     // fine codice per domande in sequenza
+
+
+    // fine nuovo
 
     currentQuestion = availableQuesions[questionIndex];
     question.innerText = currentQuestion.question;
