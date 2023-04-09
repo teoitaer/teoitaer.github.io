@@ -24,6 +24,22 @@ var x = localStorage.getItem("selValue");
 var y = localStorage.getItem("secValue");
    // alert(y);
 
+
+
+// nuovo
+var b;
+
+    if (a=="NO"){
+    b= 0;
+} else {
+    b = Math.floor(Math.random() * availableQuesions.length);
+}
+
+
+
+
+
+
 // carica il database per la materia selezionata
 var z;
 if(y=="AL ENG"){
@@ -86,24 +102,18 @@ getNewQuestion = () => {
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     
-    // nuovo
-
-//     if (a=="NO"){
-//     const questionIndex = 0;
-// } else {
-//     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
-// }
+    
 
 
 // codice per domande random
-     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+     // const questionIndex = Math.floor(Math.random() * availableQuesions.length);
    // fine codice per domande random 
     
 // codice per domande in sequenza
     // const questionIndex = 0;
     // fine codice per domande in sequenza
 
-
+const questionIndex = b
     // fine nuovo
 
     currentQuestion = availableQuesions[questionIndex];
