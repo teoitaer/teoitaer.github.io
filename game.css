@@ -57,7 +57,28 @@
 }
 
 #progressBarFull {
-  height: 2rem;
+  height: 1.8rem;
   background-color: #56a5eb;
   width: 0%;
 }
+
+.id-container {
+  display: flex;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  background-color: #ecf5ff;
+}
+
+
+.id-prefix {
+/*  padding: 1.5rem 2.5rem;*/
+  background-color: #ecf5ff;
+  color: black;
+}
+
+.id-text {
+/*  padding: 1.5rem;*/
+  width: 100%;
+}
+
