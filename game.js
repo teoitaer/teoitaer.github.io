@@ -150,5 +150,6 @@ choices.forEach((choice) => {
 
 incrementScore = (num) => {
     score += num;
-    scoreText.innerText = (score/x) * 100 + %;
+    scoreText.innerText = (score/x) * 100;
+    div.insertAdjacentHTML( 'afterEnd', % );
 };
