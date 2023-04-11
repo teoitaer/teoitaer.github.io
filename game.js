@@ -65,7 +65,7 @@ if(y=="AL ENG"){
 
 
 //CONSTANTS
-const CORRECT_BONUS = 10;
+const CORRECT_BONUS = 1;
 const MAX_QUESTIONS = x;
 
 
