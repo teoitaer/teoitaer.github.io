@@ -78,7 +78,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-         localStorage.setItem('mostRecentScore', scoreperc);
+         localStorage.setItem('mostRecentScore', score);
 
         //go to the end page
         return window.location.assign('/end.html');
@@ -151,8 +151,8 @@ choices.forEach((choice) => {
 
 incrementScore = (num) => {
     score += num;
-    var scoreperc =(score/x) * 100;
-      scoreText.innerText = scoreperc;
+
+      scoreText.innerText = (score/x) * 100;
 
 
 
