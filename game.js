@@ -72,6 +72,7 @@ const MAX_QUESTIONS = x;
 startGame = () => {
     questionCounter = 0;
     score = 0;
+    var scoreperc = (score/x) * 100;
     availableQuesions = [...questions];
     getNewQuestion();
 };
@@ -152,7 +153,8 @@ choices.forEach((choice) => {
 incrementScore = (num) => {
     score += num;
 
-      scoreText.innerText = (score/x) * 100;
+      // scoreText.innerText = (score/x) * 100;
+    scoretext.innerText = scoreperc;
 
 
 
