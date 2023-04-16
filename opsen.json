@@ -34,7 +34,7 @@
 "questionid": "5133",
 "question": "How can the pilot of an an engine-driven aircraft minimise the noise emission during descent and approach?",
 "choice1": "How can the pilot of an an engine-driven aircraft minimise the noise emission during descent and approach?",
-"choice2": "Descent and approach in landing configuration while maintaining a descent angle of 3¬∞, direct approach whenever possible",
+"choice2": "Descent and approach in landing configuration while maintaining a descent angle of 3°, direct approach whenever possible",
 "choice3": "Low approach with minimum power setting, late configuration and steep approach, adherence to established arrival routes",
 "choice4": "High approach with minimum power setting, late descent, late configuration, adherence to established arrival routes",
 "answer": 4
@@ -464,7 +464,7 @@
 "questionid": "5179",
 "question": "After a precautionary landing the brakes and wheels are very hot. In which way should the pilot approach them?",
 "choice1": "From the right or left sid",
-"choice2": "At an angle of 45¬∞",
+"choice2": "At an angle of 45°",
 "choice3": "From the front or back side",
 "choice4": "From the front, right or left side",
 "answer": 3
