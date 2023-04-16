@@ -63,6 +63,7 @@ if(y=="AL ENG"){
     });
 
 
+var scoreperc = (score/x) * 100;
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
@@ -72,7 +73,7 @@ const MAX_QUESTIONS = x;
 startGame = () => {
     questionCounter = 0;
     score = 0;
-    var scoreperc = (score/x) * 100;
+    
     availableQuesions = [...questions];
     getNewQuestion();
 };
