@@ -63,7 +63,7 @@ if(y=="AL ENG"){
     });
 
 
-var scoreperc = (score/x) * 100;
+
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
@@ -79,6 +79,7 @@ startGame = () => {
 };
 
 getNewQuestion = () => {
+    var scoreperc = (score/x) * 100;
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
          localStorage.setItem('mostRecentScore', scoreperc);
 
