@@ -151,6 +151,6 @@ choices.forEach((choice) => {
 incrementScore = (num) => {
     score += num;
     // scoreText.innerText = (score/x) * 100;
-    scoreText.innerText = 23;
+    scoreText.innerText = "23";
 
 };
