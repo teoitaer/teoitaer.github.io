@@ -150,8 +150,8 @@ choices.forEach((choice) => {
 
 incrementScore = (num) => {
     score += num;
-     // scoreText.innerText = (score/x) * 100;
-     scoreText.innerText = 3 * 100;
+      scoreText.innerText = (score/x) * 100;
+
 
 
 };
