@@ -152,7 +152,7 @@ incrementScore = (num) => {
     score += num;
       // scoreText.innerText = (score/x) * 100;
     var scoreperc = (score/x) * 100;
-    scoretext.innerText = `Hello, ${scoreperc}`;
+    scoretext.innerText = scoreperc;
 
 
 
