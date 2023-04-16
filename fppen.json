@@ -92,7 +92,7 @@
 
 {
 "questionid": "5200",
-"question": "The density of AVGAS 100LL at 15¬∞ C is...",
+"question": "The density of AVGAS 100LL at 15° C is...",
 "choice1": "0.68 kg/l.",
 "choice2": "1.0 kg/l.",
 "choice3": "0.82 kg/l.",
@@ -364,8 +364,8 @@
 "questionid": "5233",
 "question": "The angle of descent is defined as...",
 "choice1": "The ratio between the change in height and the horizontal distance travelled within the same time, expressed in percent [%]",
-"choice2": "The angle between a horizontal plane and the actual flight path, expressed in degrees [¬∞].",
-"choice3": "The ratio between the change in height and the horizontal distance distance travelled within the same time, expressed in degrees [¬∞].",
+"choice2": "The angle between a horizontal plane and the actual flight path, expressed in degrees [°].",
+"choice3": "The ratio between the change in height and the horizontal distance distance travelled within the same time, expressed in degrees [°].",
 "choice4": "The angle between a horizontal plane and the actual flight path, expressed in percent [%].",
 "answer": 2
 },
@@ -422,7 +422,7 @@
 
 {
 "questionid": "5242",
-"question": "For a take-off from runway 22 and a reported wind of 250¬∞/10 kt, the longitudinal wind component equals...",
+"question": "For a take-off from runway 22 and a reported wind of 250°/10 kt, the longitudinal wind component equals...",
 "choice1": "9 kt tailwind",
 "choice2": "5 kt crosswind.",
 "choice3": "5 kt tailwind.",
@@ -482,7 +482,7 @@
 
 {
 "questionid": "5266",
-"question": "What is the lowest possible VFR flight level if a true course of 181¬∞ is selected and a variation of 3¬∞ east exists?",
+"question": "What is the lowest possible VFR flight level if a true course of 181° is selected and a variation of 3° east exists?",
 "choice1": "FL 050",
 "choice2": "FL 060",
 "choice3": "FL 055",
