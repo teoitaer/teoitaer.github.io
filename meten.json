@@ -903,10 +903,10 @@
 {
 "questionid": "4908",
 "question": "What temperatures are most dangerous with respect to airframe icing?",
-"choice1": "=+5¬∞ to -10¬∞ C",
-"choice2": "0¬∞ to -12¬∞ C",
-"choice3": "-20¬∞ to -40¬∞ C",
-"choice4": "=+20¬∞ to -5¬∞ C",
+"choice1": "=+5° to -10° C",
+"choice2": "0° to -12° C",
+"choice3": "-20° to -40° C",
+"choice4": "=+20° to -5° C",
 "answer": 2
 },
 
@@ -1026,7 +1026,7 @@
 "choice1": "Reduced visibilty, maybe loss of sight to the airfield during final approach",
 "choice2": "Formation of medium to heavy clear ice on all aircraft surfaces",
 "choice3": "Heavy downdrafts within rainfall areas below thunderstorm clouds",
-"choice4": "Wind shear during descent, wind direction may change by 180¬∞",
+"choice4": "Wind shear during descent, wind direction may change by 180°",
 "answer": 4
 },
 
@@ -1185,10 +1185,10 @@
 {
 "questionid": "4938",
 "question": "How does air temperatur change in ISA from MSL to approx. 10.000 m height?",
-"choice1": "From +20¬∞ to -40¬∞C",
-"choice2": "From +30¬∞ to -40¬∞C",
-"choice3": "From -15¬∞ to 50¬∞C",
-"choice4": "From +15¬∞ to -50¬∞C",
+"choice1": "From +20° to -40°C",
+"choice2": "From +30° to -40°C",
+"choice3": "From -15° to 50°C",
+"choice4": "From +15° to -50°C",
 "answer": 4
 },
 
